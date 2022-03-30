@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--1 horizontal：    方向：   vertical:垂直的    horizontal：水平的，不指定默认是水平-->
+    <!--2 layout_weight:  权重：   值是整型的数据
+            2.1 只给一个就会最后摆放，这个就会自动占领剩余控件
+            2.2 按比例划分控件，就是数值的比例（注意：要把宽高调为对应的0dp）
+            如果文本边长了控件的大小不会在该方向溢出-->
+    <!--3 layout_gravity:  摆放重力向着哪边靠：
+            如果是水平的那么就可以调整（上中下）
+            如果是垂直的那就就可以调整（边中右）
+            线性布局是无法做到完全在任何一个方向居中于父容器-->
+    <!--4
+        layout_width
+        layout_height
+            match_parent：匹配外部的容器的大小
+            wrap_content：大小随着内容的增大而增大
+            具体的数值
+    -->
+    <!--5
+        android:layout_margin="20dp"
+        android:padding="20dp"-->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="慕课慕课慕课慕课慕课慕课慕课"
+        android:background="#ff0000"
+        android:layout_weight="1"
+        android:textSize="28sp"
+        android:layout_gravity="bottom"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="慕课"
+        android:background="#00ff00"
+        android:layout_weight="2"
+        android:textSize="28sp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="慕课"
+        android:background="#0000ff"
+        android:layout_weight="2"
+        android:textSize="28sp"/>
+
+</LinearLayout>

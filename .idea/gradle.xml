@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/index04kongjian" />
+            <option value="$PROJECT_DIR$/index05uikongjianzongheshijian" />
+            <option value="$PROJECT_DIR$/index06xuancaixitong" />
+            <option value="$PROJECT_DIR$/index07_picking_up_brides" />
+            <option value="$PROJECT_DIR$/index08_tiaozhuan" />
+            <option value="$PROJECT_DIR$/index09_MenuDemo" />
+            <option value="$PROJECT_DIR$/index10_dialogdemo" />
+            <option value="$PROJECT_DIR$/index11_acttLife_Tongxin" />
+            <option value="$PROJECT_DIR$/index12_fragmentdemo" />
+            <option value="$PROJECT_DIR$/index13_viewPager" />
+            <option value="$PROJECT_DIR$/layoutdemo" />
+            <option value="$PROJECT_DIR$/layoutdemo2" />
+            <option value="$PROJECT_DIR$/uidemo" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

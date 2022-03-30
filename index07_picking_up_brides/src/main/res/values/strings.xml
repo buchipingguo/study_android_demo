@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">index7_picking_up_brides</string>
+    <string name="name">姓名:</string>
+    <string name="edit_name">请输入姓名</string>
+    <string name="gender">性别：</string>
+    <string name="rihan">日韩</string>
+    <string name="oumei">欧美</string>
+    <string name="age">年龄：</string>
+    <string name="production_num">作品数量:</string>
+</resources>
